@@ -1,0 +1,3 @@
+/home/michael/LinuxSystem&ConcuringProgrammingInC/cmake-build-debug/CMakeFiles/LinuxSystem_ConcuringProgrammingInC.dir
+/home/michael/LinuxSystem&ConcuringProgrammingInC/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/michael/LinuxSystem&ConcuringProgrammingInC/cmake-build-debug/CMakeFiles/rebuild_cache.dir
