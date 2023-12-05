@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "lab4"
+			"path" : "lab5"
 		}
 	],
 	"backtrace" : 1,
@@ -35,7 +35,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -std=gnu11 -fdiagnostics-color=always"
+					"fragment" : "-g -fdiagnostics-color=always"
 				}
 			],
 			"language" : "C",
@@ -45,7 +45,7 @@
 				[
 					1
 				],
-				"standard" : "11"
+				"standard" : "17"
 			},
 			"sourceIndexes" : 
 			[
@@ -53,7 +53,7 @@
 			]
 		}
 	],
-	"id" : "lab4::@6890427a1f51a3e7e1df",
+	"id" : "lab5::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -69,8 +69,8 @@
 		],
 		"language" : "C"
 	},
-	"name" : "lab4",
-	"nameOnDisk" : "lab4",
+	"name" : "lab5",
+	"nameOnDisk" : "lab5",
 	"paths" : 
 	{
 		"build" : ".",
@@ -91,7 +91,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "noNamedConnections1.c",
+			"path" : "main.c",
 			"sourceGroupIndex" : 0
 		}
 	],

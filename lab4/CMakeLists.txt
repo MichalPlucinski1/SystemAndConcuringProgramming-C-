@@ -4,4 +4,7 @@ project(lab4 C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(lab4
-        noNamedConnections1.c)
+        noNamedConnections1.c
+        UNexampleWithTR.c
+        namedConnections.c
+        ring.c)
