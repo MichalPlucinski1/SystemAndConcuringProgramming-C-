@@ -1,10 +1,26 @@
-/snap/clion/250/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/snap/clion/250/bin/ninja/linux/x64/ninja -G Ninja -S /home/michael/LinuxSystem&ConcuringProgrammingInC/lab5 -B /home/michael/LinuxSystem&ConcuringProgrammingInC/lab5/cmake-build-debug
+/snap/clion/261/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/snap/clion/261/bin/ninja/linux/x64/ninja -G Ninja -S /home/michael/LinuxSystem&ConcuringProgrammingInC/lab5 -B /home/michael/LinuxSystem&ConcuringProgrammingInC/lab5/cmake-build-debug
 -- The C compiler identification is GNU 11.4.0
 -- Detecting C compiler ABI info
 -- Detecting C compiler ABI info - done
 -- Check for working C compiler: /usr/bin/cc - skipped
 -- Detecting C compile features
 -- Detecting C compile features - done
--- Configuring done (0.2s)
+-- Configuring done (0.3s)
+CMake Error: CMake can not determine linker language for target: new_target
 -- Generating done (0.0s)
--- Build files have been written to: /home/michael/LinuxSystem&ConcuringProgrammingInC/lab5/cmake-build-debug
+CMake Error:
+  Running
+
+   '/snap/clion/261/bin/ninja/linux/x64/ninja' '-C' '/home/michael/LinuxSystem&ConcuringProgrammingInC/lab5/cmake-build-debug' '-t' 'recompact'
+
+  failed with:
+
+   ninja: error: build.ninja:35: loading 'CMakeFiles/rules.ninja': No such file or directory
+
+  include CMakeFiles/rules.ninja
+
+                                ^ near here
+
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
